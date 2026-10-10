@@ -1,1 +1,1 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/klb","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/mlb","tints":[{"type":"custom_model_data","default":16777215}]}]}}
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/epb","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/fpb","tints":[{"type":"custom_model_data","default":16777215}]}]}}

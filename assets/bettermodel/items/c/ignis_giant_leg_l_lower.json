@@ -1,1 +1,1 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/lme","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/ome","tints":[{"type":"custom_model_data","default":16777215}]}]}}
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/hle","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/ile","tints":[{"type":"custom_model_data","default":16777215}]}]}}

@@ -1,1 +1,1 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/gmc","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/hmc","tints":[{"type":"custom_model_data","default":16777215}]}]}}
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/alc","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/blc","tints":[{"type":"custom_model_data","default":16777215}]}]}}

@@ -1,1 +1,1 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/b7b","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/c7b","tints":[{"type":"custom_model_data","default":16777215}]}]}}
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/58b","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/68b","tints":[{"type":"custom_model_data","default":16777215}]}]}}

@@ -1,1 +1,1 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/vtc","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/wtc","tints":[{"type":"custom_model_data","default":16777215}]}]}}
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/pvc","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/qvc","tints":[{"type":"custom_model_data","default":16777215}]}]}}
