@@ -19,20 +19,30 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  PACK_DIR: "."            # folder that contains pack.mcmeta + assets/. Change if the pack lives in a subfolder.
+  PACK_DIR: ""             # leave empty to auto-detect the folder that contains pack.mcmeta; set a path to force one
   ASSET_NAME: "DRIP_TexturePack.zip"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Sanity check pack root
+      - name: Locate pack root
         run: |
-          test -f "$PACK_DIR/pack.mcmeta" || { echo "::error::pack.mcmeta not found in $PACK_DIR - zip root would be wrong"; exit 1; }
+          echo "Repo top level:"; ls -la
+          if [ -z "$PACK_DIR" ]; then
+            echo "pack.mcmeta candidates:"; find . -name pack.mcmeta -not -path "./.git/*"
+            # shallowest pack.mcmeta wins
+            MC=$(find . -name pack.mcmeta -not -path "./.git/*" | awk '{print gsub("/","/"), $0}' | sort -n | head -1 | cut -d' ' -f2-)
+            [ -n "$MC" ] || { echo "::error::No pack.mcmeta anywhere in the repo - see the listing above"; exit 1; }
+            PACK_DIR=$(dirname "$MC")
+          fi
+          echo "Using PACK_DIR=$PACK_DIR"
+          echo "PACK_DIR=$PACK_DIR" >> "$GITHUB_ENV"
+          test -f "$PACK_DIR/pack.mcmeta" || { echo "::error::pack.mcmeta not found in $PACK_DIR"; exit 1; }
           test -d "$PACK_DIR/assets"      || { echo "::error::assets/ not found in $PACK_DIR"; exit 1; }
-          python3 -c "import json,sys; json.load(open('$PACK_DIR/pack.mcmeta'))" || { echo "::error::pack.mcmeta is not valid JSON"; exit 1; }
+          python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$PACK_DIR/pack.mcmeta" || { echo "::error::pack.mcmeta is not valid JSON"; exit 1; }
 
       - name: Build zip
         run: |
