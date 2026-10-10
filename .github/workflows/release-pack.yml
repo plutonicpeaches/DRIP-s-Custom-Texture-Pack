@@ -2,7 +2,7 @@
 # On every push to main (or manual run), zips the pack, computes SHA-1, publishes a release,
 # and prints the url + sha1 block to paste into plugins/DRIPCore/config.yml.
 name: Release resource pack
- 
+
 on:
   push:
     branches: [main]
@@ -10,30 +10,30 @@ on:
       - "README*"
       - ".github/**"
   workflow_dispatch:
- 
+
 permissions:
   contents: write          # needed to create the release
- 
+
 concurrency:
   group: release-pack
   cancel-in-progress: false
- 
+
 env:
   PACK_DIR: "."            # folder that contains pack.mcmeta + assets/. Change if the pack lives in a subfolder.
   ASSET_NAME: "DRIP_TexturePack.zip"
- 
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
- 
+
       - name: Sanity check pack root
         run: |
           test -f "$PACK_DIR/pack.mcmeta" || { echo "::error::pack.mcmeta not found in $PACK_DIR - zip root would be wrong"; exit 1; }
           test -d "$PACK_DIR/assets"      || { echo "::error::assets/ not found in $PACK_DIR"; exit 1; }
           python3 -c "import json,sys; json.load(open('$PACK_DIR/pack.mcmeta'))" || { echo "::error::pack.mcmeta is not valid JSON"; exit 1; }
- 
+
       - name: Build zip
         run: |
           cd "$PACK_DIR"
@@ -41,11 +41,11 @@ jobs:
           zip -X -r -9 "$GITHUB_WORKSPACE/$ASSET_NAME" . \
             -x ".git/*" ".github/*" ".gitattributes" ".gitignore" "README*" "*.md" "*.bbmodel" "*.psd" "*.xcf" ".DS_Store" "Thumbs.db"
           ls -l "$GITHUB_WORKSPACE/$ASSET_NAME"
- 
+
       - name: Compute SHA-1
         id: hash
         run: echo "sha1=$(sha1sum "$ASSET_NAME" | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
- 
+
       - name: Publish release
         id: rel
         env:
@@ -57,7 +57,7 @@ jobs:
             --notes "sha1: ${{ steps.hash.outputs.sha1 }}" \
             --target "${{ github.sha }}"
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
- 
+
       - name: Paste-ready config
         run: |
           URL="https://github.com/${{ github.repository }}/releases/download/${{ steps.rel.outputs.tag }}/${ASSET_NAME}"
@@ -73,4 +73,3 @@ jobs:
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
           cat "$GITHUB_STEP_SUMMARY"
- 
