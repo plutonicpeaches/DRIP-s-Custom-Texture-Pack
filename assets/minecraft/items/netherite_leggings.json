@@ -1,0 +1,1 @@
+{"model":{"type":"minecraft:range_dispatch","property":"minecraft:custom_model_data","fallback":{"type":"minecraft:model","model":"minecraft:item/netherite_leggings"},"entries":[{"threshold":5007,"model":{"type":"minecraft:model","model":"minecraft:item/magma_leggings"}}]}}

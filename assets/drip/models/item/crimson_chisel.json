@@ -1,0 +1,98 @@
+{
+  "credit": "Judah / DRIP - crimson_chisel (replaces the Wave 48 crimson_scythe placeholder as the Crimson Crate's cutting weapon - simple blocky chisel geometry, scaled down vs. the scythe; reuses the scythe's palette-sampled texture. Re-model in Blockbench when ready for a real pass.)",
+  "textures": {
+    "0": "drip:item/crimson_chisel",
+    "particle": "drip:item/crimson_chisel"
+  },
+  "elements": [
+    {
+      "from": [7, -4, 7],
+      "to": [9, 6, 9],
+      "faces": {
+        "north": {"uv": [0.0, 0.0, 4.0, 4.0], "texture": "#0"},
+        "south": {"uv": [0.0, 0.0, 4.0, 4.0], "texture": "#0"},
+        "east":  {"uv": [0.0, 0.0, 4.0, 4.0], "texture": "#0"},
+        "west":  {"uv": [0.0, 0.0, 4.0, 4.0], "texture": "#0"},
+        "up":    {"uv": [0.0, 0.0, 4.0, 4.0], "texture": "#0"},
+        "down":  {"uv": [0.0, 0.0, 4.0, 4.0], "texture": "#0"}
+      }
+    },
+    {
+      "from": [6.5, 6, 6.5],
+      "to": [9.5, 7, 9.5],
+      "faces": {
+        "north": {"uv": [4.0, 0.0, 8.0, 4.0], "texture": "#0"},
+        "south": {"uv": [4.0, 0.0, 8.0, 4.0], "texture": "#0"},
+        "east":  {"uv": [4.0, 0.0, 8.0, 4.0], "texture": "#0"},
+        "west":  {"uv": [4.0, 0.0, 8.0, 4.0], "texture": "#0"},
+        "up":    {"uv": [4.0, 0.0, 8.0, 4.0], "texture": "#0"},
+        "down":  {"uv": [4.0, 0.0, 8.0, 4.0], "texture": "#0"}
+      }
+    },
+    {
+      "from": [6, 7, 7.5],
+      "to": [10, 10, 8.5],
+      "faces": {
+        "north": {"uv": [8.0, 0.0, 12.0, 4.0], "texture": "#0"},
+        "south": {"uv": [8.0, 0.0, 12.0, 4.0], "texture": "#0"},
+        "east":  {"uv": [8.0, 0.0, 12.0, 4.0], "texture": "#0"},
+        "west":  {"uv": [8.0, 0.0, 12.0, 4.0], "texture": "#0"},
+        "up":    {"uv": [8.0, 0.0, 12.0, 4.0], "texture": "#0"},
+        "down":  {"uv": [8.0, 0.0, 12.0, 4.0], "texture": "#0"}
+      }
+    },
+    {
+      "from": [6.5, 10, 7.75],
+      "to": [9.5, 13, 8.25],
+      "faces": {
+        "north": {"uv": [12.0, 0.0, 16.0, 4.0], "texture": "#0"},
+        "south": {"uv": [12.0, 0.0, 16.0, 4.0], "texture": "#0"},
+        "east":  {"uv": [12.0, 0.0, 16.0, 4.0], "texture": "#0"},
+        "west":  {"uv": [12.0, 0.0, 16.0, 4.0], "texture": "#0"},
+        "up":    {"uv": [12.0, 0.0, 16.0, 4.0], "texture": "#0"},
+        "down":  {"uv": [12.0, 0.0, 16.0, 4.0], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -25, 5],
+      "translation": [0, 4, -2],
+      "scale": [0.42, 0.42, 0.42]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 25, -5],
+      "translation": [0, 4, -2],
+      "scale": [0.42, 0.42, 0.42]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -20, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.45, 0.45, 0.45]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 20, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.45, 0.45, 0.45]
+    },
+    "ground": {
+      "translation": [0, 2, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "gui": {
+      "rotation": [15, -60, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.45, 0.45, 0.45]
+    },
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 13, 0],
+      "scale": [1, 1, 1]
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

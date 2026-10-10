@@ -1,0 +1,96 @@
+{
+  "credit": "Judah / DRIP - aquarium_slime.bbmodel (pet rig bone)",
+  "textures": {
+    "0": "drip:item/pet_aquarium_slime",
+    "particle": "drip:item/pet_aquarium_slime"
+  },
+  "elements": [
+    {
+      "from": [
+        -3.4,
+        1.55,
+        -3.4
+      ],
+      "to": [
+        3.4,
+        2.05,
+        3.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.125,
+            4.125,
+            7.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            4.125,
+            4.125,
+            7.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            4.125,
+            4.125,
+            7.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            4.125,
+            4.125,
+            7.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            4.125,
+            4.125,
+            7.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            4.125,
+            4.125,
+            7.875,
+            7.875
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

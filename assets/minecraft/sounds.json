@@ -1,0 +1,428 @@
+{
+    "item.glass_blade.weak_attack":  {
+                                         "sounds":  [
+                                                        "item/glass_blade/glass_blade_weak_attack"
+                                                    ],
+                                         "subtitle":  "Glass Blade swings"
+                                     },
+    "item.glass_blade.strong_attack":  {
+                                           "sounds":  [
+                                                          "item/glass_blade/glass_blade_strong_attack"
+                                                      ],
+                                           "subtitle":  "Glass Blade strikes"
+                                       },
+    "item.glass_blade.sweeping_attack":  {
+                                             "sounds":  [
+                                                            "item/glass_blade/glass_blade_sweeping_attack"
+                                                        ],
+                                             "subtitle":  "Glass Blade sweeps"
+                                         },
+    "item.glass_blade.critical_attack":  {
+                                             "sounds":  [
+                                                            "item/glass_blade/glass_blade_critical_attack"
+                                                        ],
+                                             "subtitle":  "Glass Blade crits"
+                                         },
+    "item.glass_blade.knockback_attack":  {
+                                              "sounds":  [
+                                                             "item/glass_blade/glass_blade_knockback_attack"
+                                                         ],
+                                              "subtitle":  "Glass Blade knockback"
+                                          },
+    "item.crystal_blade.weak_attack":  {
+                                           "sounds":  [
+                                                          "item/crystal_blade/crystal_blade_weak_attack"
+                                                      ],
+                                           "subtitle":  "Crystal Blade swings"
+                                       },
+    "item.crystal_blade.strong_attack":  {
+                                             "sounds":  [
+                                                            "item/crystal_blade/crystal_blade_strong_attack"
+                                                        ],
+                                             "subtitle":  "Crystal Blade strikes"
+                                         },
+    "item.crystal_blade.sweeping_attack":  {
+                                               "sounds":  [
+                                                              "item/crystal_blade/crystal_blade_sweeping_attack"
+                                                          ],
+                                               "subtitle":  "Crystal Blade sweeps"
+                                           },
+    "item.crystal_blade.critical_attack":  {
+                                               "sounds":  [
+                                                              "item/crystal_blade/crystal_blade_critical_attack"
+                                                          ],
+                                               "subtitle":  "Crystal Blade crits"
+                                           },
+    "item.crystal_blade.knockback_attack":  {
+                                                "sounds":  [
+                                                               "item/crystal_blade/crystal_blade_knockback_attack"
+                                                           ],
+                                                "subtitle":  "Crystal Blade knockback"
+                                            },
+    "item.void_sword.weak_attack":  {
+                                        "sounds":  [
+                                                       "item/void_sword/void_sword_weak_attack"
+                                                   ],
+                                        "subtitle":  "Void Sword swings"
+                                    },
+    "item.void_sword.strong_attack":  {
+                                          "sounds":  [
+                                                         "item/void_sword/void_sword_strong_attack"
+                                                     ],
+                                          "subtitle":  "Void Sword strikes"
+                                      },
+    "item.void_sword.sweeping_attack":  {
+                                            "sounds":  [
+                                                           "item/void_sword/void_sword_sweeping_attack"
+                                                       ],
+                                            "subtitle":  "Void Sword sweeps"
+                                        },
+    "item.void_sword.critical_attack":  {
+                                            "sounds":  [
+                                                           "item/void_sword/void_sword_critical_attack"
+                                                       ],
+                                            "subtitle":  "Void Sword crits"
+                                        },
+    "item.void_sword.knockback_attack":  {
+                                             "sounds":  [
+                                                            "item/void_sword/void_sword_knockback_attack"
+                                                        ],
+                                             "subtitle":  "Void Sword knockback"
+                                         },
+    "item.frozen_fury.weak_attack":  {
+                                         "sounds":  [
+                                                        "item/frozen_fury/frozen_fury_weak_attack"
+                                                    ],
+                                         "subtitle":  "Frozen Fury swings"
+                                     },
+    "item.frozen_fury.strong_attack":  {
+                                           "sounds":  [
+                                                          "item/frozen_fury/frozen_fury_strong_attack"
+                                                      ],
+                                           "subtitle":  "Frozen Fury strikes"
+                                       },
+    "item.frozen_fury.sweeping_attack":  {
+                                             "sounds":  [
+                                                            "item/frozen_fury/frozen_fury_sweeping_attack"
+                                                        ],
+                                             "subtitle":  "Frozen Fury sweeps"
+                                         },
+    "item.frozen_fury.critical_attack":  {
+                                             "sounds":  [
+                                                            "item/frozen_fury/frozen_fury_critical_attack"
+                                                        ],
+                                             "subtitle":  "Frozen Fury crits"
+                                         },
+    "item.frozen_fury.knockback_attack":  {
+                                              "sounds":  [
+                                                             "item/frozen_fury/frozen_fury_knockback_attack"
+                                                         ],
+                                              "subtitle":  "Frozen Fury knockback"
+                                          },
+    "item.neon_blade.weak_attack":  {
+                                        "sounds":  [
+                                                       "item/neon_blade/neon_blade_weak_attack"
+                                                   ],
+                                        "subtitle":  "Neon Blade swings"
+                                    },
+    "item.neon_blade.strong_attack":  {
+                                          "sounds":  [
+                                                         "item/neon_blade/neon_blade_strong_attack"
+                                                     ],
+                                          "subtitle":  "Neon Blade strikes"
+                                      },
+    "item.neon_blade.sweeping_attack":  {
+                                            "sounds":  [
+                                                           "item/neon_blade/neon_blade_sweeping_attack"
+                                                       ],
+                                            "subtitle":  "Neon Blade sweeps"
+                                        },
+    "item.neon_blade.critical_attack":  {
+                                            "sounds":  [
+                                                           "item/neon_blade/neon_blade_critical_attack"
+                                                       ],
+                                            "subtitle":  "Neon Blade crits"
+                                        },
+    "item.neon_blade.knockback_attack":  {
+                                             "sounds":  [
+                                                            "item/neon_blade/neon_blade_knockback_attack"
+                                                        ],
+                                             "subtitle":  "Neon Blade knockback"
+                                         },
+    "item.crimson_cutlass.weak_attack":  {
+                                             "sounds":  [
+                                                            "item/crimson_cutlass/crimson_cutlass_weak_attack"
+                                                        ],
+                                             "subtitle":  "Crimson Cutlass swings"
+                                         },
+    "item.crimson_cutlass.strong_attack":  {
+                                               "sounds":  [
+                                                              "item/crimson_cutlass/crimson_cutlass_strong_attack"
+                                                          ],
+                                               "subtitle":  "Crimson Cutlass strikes"
+                                           },
+    "item.crimson_cutlass.sweeping_attack":  {
+                                                 "sounds":  [
+                                                                "item/crimson_cutlass/crimson_cutlass_sweeping_attack"
+                                                            ],
+                                                 "subtitle":  "Crimson Cutlass sweeps"
+                                             },
+    "item.crimson_cutlass.critical_attack":  {
+                                                 "sounds":  [
+                                                                "item/crimson_cutlass/crimson_cutlass_critical_attack"
+                                                            ],
+                                                 "subtitle":  "Crimson Cutlass crits"
+                                             },
+    "item.crimson_cutlass.knockback_attack":  {
+                                                  "sounds":  [
+                                                                 "item/crimson_cutlass/crimson_cutlass_knockback_attack"
+                                                             ],
+                                                  "subtitle":  "Crimson Cutlass knockback"
+                                              },
+    "item.divine_sword.weak_attack":  {
+                                          "sounds":  [
+                                                         "item/divine_sword/divine_sword_weak_attack"
+                                                     ],
+                                          "subtitle":  "Divine Sword swings"
+                                      },
+    "item.divine_sword.strong_attack":  {
+                                            "sounds":  [
+                                                           "item/divine_sword/divine_sword_strong_attack"
+                                                       ],
+                                            "subtitle":  "Divine Sword strikes"
+                                        },
+    "item.divine_sword.sweeping_attack":  {
+                                              "sounds":  [
+                                                             "item/divine_sword/divine_sword_sweeping_attack"
+                                                         ],
+                                              "subtitle":  "Divine Sword sweeps"
+                                          },
+    "item.divine_sword.critical_attack":  {
+                                              "sounds":  [
+                                                             "item/divine_sword/divine_sword_critical_attack"
+                                                         ],
+                                              "subtitle":  "Divine Sword crits"
+                                          },
+    "item.divine_sword.knockback_attack":  {
+                                               "sounds":  [
+                                                              "item/divine_sword/divine_sword_knockback_attack"
+                                                          ],
+                                               "subtitle":  "Divine Sword knockback"
+                                           },
+    "item.fantasy_sword.weak_attack":  {
+                                           "sounds":  [
+                                                          "item/fantasy_sword/fantasy_sword_weak_attack"
+                                                      ],
+                                           "subtitle":  "Fantasy Sword swings"
+                                       },
+    "item.fantasy_sword.strong_attack":  {
+                                             "sounds":  [
+                                                            "item/fantasy_sword/fantasy_sword_strong_attack"
+                                                        ],
+                                             "subtitle":  "Fantasy Sword strikes"
+                                         },
+    "item.fantasy_sword.critical_attack":  {
+                                               "sounds":  [
+                                                              "item/fantasy_sword/fantasy_sword_critical_attack"
+                                                          ],
+                                               "subtitle":  "Fantasy Sword crits"
+                                           },
+    "item.fantasy_sword.sweeping_attack":  {
+                                               "sounds":  [
+                                                              "item/fantasy_sword/fantasy_sword_sweeping_attack"
+                                                          ],
+                                               "subtitle":  "Fantasy Sword sweeps"
+                                           },
+    "item.fantasy_sword.knockback_attack":  {
+                                                "sounds":  [
+                                                               "item/fantasy_sword/fantasy_sword_knockback_attack"
+                                                           ],
+                                                "subtitle":  "Fantasy Sword knockback"
+                                            },
+    "item.cyber_sword.weak_attack":  {
+                                         "sounds":  [
+                                                        "item/cyber_sword/cyber_sword_weak_attack"
+                                                    ],
+                                         "subtitle":  "Cyber Sword swings"
+                                     },
+    "item.cyber_sword.strong_attack":  {
+                                           "sounds":  [
+                                                          "item/cyber_sword/cyber_sword_strong_attack"
+                                                      ],
+                                           "subtitle":  "Cyber Sword strikes"
+                                       },
+    "item.cyber_sword.critical_attack":  {
+                                             "sounds":  [
+                                                            "item/cyber_sword/cyber_sword_critical_attack"
+                                                        ],
+                                             "subtitle":  "Cyber Sword crits"
+                                         },
+    "item.cyber_sword.sweeping_attack":  {
+                                             "sounds":  [
+                                                            "item/cyber_sword/cyber_sword_sweeping_attack"
+                                                        ],
+                                             "subtitle":  "Cyber Sword sweeps"
+                                         },
+    "item.cyber_sword.knockback_attack":  {
+                                              "sounds":  [
+                                                             "item/cyber_sword/cyber_sword_knockback_attack"
+                                                         ],
+                                              "subtitle":  "Cyber Sword knockback"
+                                          },
+    "item.black_hole_blade.weak_attack":  {
+                                              "sounds":  [
+                                                             "item/black_hole_blade/black_hole_blade_weak_attack"
+                                                         ],
+                                              "subtitle":  "Black Hole Blade swings"
+                                          },
+    "item.black_hole_blade.strong_attack":  {
+                                                "sounds":  [
+                                                               "item/black_hole_blade/black_hole_blade_strong_attack"
+                                                           ],
+                                                "subtitle":  "Black Hole Blade strikes"
+                                            },
+    "item.black_hole_blade.critical_attack":  {
+                                                  "sounds":  [
+                                                                 "item/black_hole_blade/black_hole_blade_critical_attack"
+                                                             ],
+                                                  "subtitle":  "Black Hole Blade crits"
+                                              },
+    "item.black_hole_blade.sweeping_attack":  {
+                                                  "sounds":  [
+                                                                 "item/black_hole_blade/black_hole_blade_sweeping_attack"
+                                                             ],
+                                                  "subtitle":  "Black Hole Blade sweeps"
+                                              },
+    "item.black_hole_blade.knockback_attack":  {
+                                                   "sounds":  [
+                                                                  "item/black_hole_blade/black_hole_blade_knockback_attack"
+                                                              ],
+                                                   "subtitle":  "Black Hole Blade knockback"
+                                               },
+    "item.arcane_blade.weak_attack":  {
+                                          "sounds":  [
+                                                         "item/arcane_blade/arcane_blade_weak_attack"
+                                                     ],
+                                          "subtitle":  "Arcane Blade swings"
+                                      },
+    "item.arcane_blade.strong_attack":  {
+                                            "sounds":  [
+                                                           "item/arcane_blade/arcane_blade_strong_attack"
+                                                       ],
+                                            "subtitle":  "Arcane Blade strikes"
+                                        },
+    "item.arcane_blade.critical_attack":  {
+                                              "sounds":  [
+                                                             "item/arcane_blade/arcane_blade_critical_attack"
+                                                         ],
+                                              "subtitle":  "Arcane Blade crits"
+                                          },
+    "item.arcane_blade.sweeping_attack":  {
+                                              "sounds":  [
+                                                             "item/arcane_blade/arcane_blade_sweeping_attack"
+                                                         ],
+                                              "subtitle":  "Arcane Blade sweeps"
+                                          },
+    "item.arcane_blade.knockback_attack":  {
+                                               "sounds":  [
+                                                              "item/arcane_blade/arcane_blade_knockback_attack"
+                                                          ],
+                                               "subtitle":  "Arcane Blade knockback"
+                                           },
+    "item.inferno_blade.weak_attack":  {
+                                           "sounds":  [
+                                                          "item/inferno_blade/inferno_blade_weak_attack"
+                                                      ],
+                                           "subtitle":  "Inferno Blade swings"
+                                       },
+    "item.inferno_blade.strong_attack":  {
+                                             "sounds":  [
+                                                            "item/inferno_blade/inferno_blade_strong_attack"
+                                                        ],
+                                             "subtitle":  "Inferno Blade strikes"
+                                         },
+    "item.inferno_blade.sweeping_attack":  {
+                                               "sounds":  [
+                                                              "item/inferno_blade/inferno_blade_sweeping_attack"
+                                                          ],
+                                               "subtitle":  "Inferno Blade sweeps"
+                                           },
+    "item.inferno_blade.critical_attack":  {
+                                               "sounds":  [
+                                                              "item/inferno_blade/inferno_blade_critical_attack_1",
+                                                              "item/inferno_blade/inferno_blade_critical_attack_2",
+                                                              "item/inferno_blade/inferno_blade_critical_attack_3"
+                                                          ],
+                                               "subtitle":  "Inferno Blade crits"
+                                           },
+    "item.inferno_blade.knockback_attack":  {
+                                                "sounds":  [
+                                                               "item/inferno_blade/inferno_blade_knockback_attack_1",
+                                                               "item/inferno_blade/inferno_blade_knockback_attack_2"
+                                                           ],
+                                                "subtitle":  "Inferno Blade knockback"
+                                            },
+    "item.magma_mace.weak_attack":  {
+                                        "sounds":  [
+                                                       "item/magma_mace/magma_mace_weak_attack"
+                                                   ],
+                                        "subtitle":  "Magma Mace swings"
+                                    },
+    "item.magma_mace.strong_attack":  {
+                                          "sounds":  [
+                                                         "item/magma_mace/magma_mace_strong_attack"
+                                                     ],
+                                          "subtitle":  "Magma Mace strikes"
+                                      },
+    "item.magma_mace.sweeping_attack":  {
+                                            "sounds":  [
+                                                           "item/magma_mace/magma_mace_sweeping_attack"
+                                                       ],
+                                            "subtitle":  "Magma Mace sweeps"
+                                        },
+    "item.magma_mace.critical_attack":  {
+                                            "sounds":  [
+                                                           "item/magma_mace/magma_mace_critical_attack_1",
+                                                           "item/magma_mace/magma_mace_critical_attack_2",
+                                                           "item/magma_mace/magma_mace_critical_attack_3",
+                                                           "item/magma_mace/magma_mace_critical_attack_4"
+                                                       ],
+                                            "subtitle":  "Magma Mace smashes"
+                                        },
+    "item.magma_mace.knockback_attack":  {
+                                             "sounds":  [
+                                                            "item/magma_mace/magma_mace_knockback_attack"
+                                                        ],
+                                             "subtitle":  "Magma Mace knocks back"
+                                         },
+    "item.frost_blade.weak_attack":  {
+                                         "sounds":  [
+                                                        "item/frost_blade/frost_blade_weak_attack"
+                                                    ],
+                                         "subtitle":  "Frost Blade swings"
+                                     },
+    "item.frost_blade.strong_attack":  {
+                                           "sounds":  [
+                                                          "item/frost_blade/frost_blade_strong_attack"
+                                                      ],
+                                           "subtitle":  "Frost Blade strikes"
+                                       },
+    "item.frost_blade.sweeping_attack":  {
+                                             "sounds":  [
+                                                            "item/frost_blade/frost_blade_sweeping_attack"
+                                                        ],
+                                             "subtitle":  "Frost Blade sweeps"
+                                         },
+    "item.frost_blade.critical_attack":  {
+                                             "sounds":  [
+                                                            "item/frost_blade/frost_blade_critical_attack"
+                                                        ],
+                                             "subtitle":  "Frost Blade crits"
+                                         },
+    "item.frost_blade.knockback_attack":  {
+                                              "sounds":  [
+                                                             "item/frost_blade/frost_blade_knockback_attack"
+                                                         ],
+                                              "subtitle":  "Frost Blade knocks back"
+                                          }
+}

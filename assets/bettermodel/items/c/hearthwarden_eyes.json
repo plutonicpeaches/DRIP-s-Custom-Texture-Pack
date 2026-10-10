@@ -1,0 +1,1 @@
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:c/38d","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/48d","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:c/58d","tints":[{"type":"custom_model_data","default":16777215}]}]}}

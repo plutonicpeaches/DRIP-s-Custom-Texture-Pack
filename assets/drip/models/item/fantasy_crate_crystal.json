@@ -1,0 +1,219 @@
+{
+  "credit": "Judah / DRIP - fantasycrate.bbmodel (Wave 41 crystal shard)",
+  "textures": {
+    "0": "drip:item/fantasy_crate",
+    "particle": "drip:item/fantasy_crate"
+  },
+  "elements": [
+    {
+      "from": [
+        -1.5,
+        -2.5,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        2.5,
+        1.5
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            13.75,
+            0.5625,
+            14.6875
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0.5625,
+            13.75,
+            1.125,
+            14.6875
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.125,
+            13.75,
+            1.6875,
+            14.6875
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.6875,
+            13.75,
+            2.25,
+            14.6875
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            14.6875,
+            0.5625,
+            15.25
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.5625,
+            14.6875,
+            1.125,
+            15.25
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        25,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        25,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -135,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        12,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

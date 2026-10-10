@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "head",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "drip:item/embersteel_helmet_head"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "drip:item/embersteel_leggings_head"
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "drip:item/embersteel_helmet"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "credit": "Judah / DRIP - bramble_butler.bbmodel (pet rig bone)",
+  "textures": {
+    "0": "drip:item/pet_bramble_butler",
+    "particle": "drip:item/pet_bramble_butler"
+  },
+  "elements": [
+    {
+      "from": [
+        -2.5,
+        -0.20000000000000018,
+        -1.5
+      ],
+      "to": [
+        2.5,
+        0.20000000000000018,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.1875,
+            4.1875,
+            15.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            12.1875,
+            4.1875,
+            15.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            12.1875,
+            4.1875,
+            15.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            12.1875,
+            4.1875,
+            15.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            12.1875,
+            4.1875,
+            15.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            12.1875,
+            4.1875,
+            15.75,
+            7.75
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "credit": "Judah / DRIP - clockwork_snail.bbmodel (pet rig bone)",
+  "textures": {
+    "0": "drip:item/pet_clockwork_snail",
+    "particle": "drip:item/pet_clockwork_snail"
+  },
+  "elements": [
+    {
+      "from": [
+        -0.07500000000000018,
+        0.0,
+        -0.09999999999999998
+      ],
+      "to": [
+        0.07500000000000018,
+        2.0,
+        0.10000000000000009
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.1875,
+            0.1875,
+            3.75,
+            3.75
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.1875,
+            0.1875,
+            3.75,
+            3.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0.1875,
+            0.1875,
+            3.75,
+            3.75
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.1875,
+            0.1875,
+            3.75,
+            3.75
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.1875,
+            0.1875,
+            3.75,
+            3.75
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.1875,
+            0.1875,
+            3.75,
+            3.75
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

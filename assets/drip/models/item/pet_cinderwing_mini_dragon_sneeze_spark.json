@@ -1,0 +1,105 @@
+{
+  "credit": "Judah / DRIP - Cinderwing_Mini_Dragon.bbmodel (pet rig bone)",
+  "textures": {
+    "0": "drip:item/pet_cinderwing_mini_dragon",
+    "particle": "drip:item/pet_cinderwing_mini_dragon"
+  },
+  "elements": [
+    {
+      "from": [
+        -0.375,
+        12.625,
+        -14.175
+      ],
+      "to": [
+        0.375,
+        13.375,
+        -13.425
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.125,
+            4.125,
+            3.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0.125,
+            4.125,
+            3.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.125,
+            4.125,
+            3.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.125,
+            4.125,
+            3.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.125,
+            4.125,
+            3.875,
+            7.875
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.125,
+            4.125,
+            3.875,
+            7.875
+          ],
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          0,
+          13,
+          -13.8
+        ]
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

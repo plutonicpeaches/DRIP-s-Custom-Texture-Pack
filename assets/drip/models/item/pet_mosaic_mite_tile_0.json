@@ -1,0 +1,96 @@
+{
+  "credit": "Judah / DRIP - mosaic_mite.bbmodel (pet rig bone)",
+  "textures": {
+    "0": "drip:item/pet_mosaic_mite",
+    "particle": "drip:item/pet_mosaic_mite"
+  },
+  "elements": [
+    {
+      "from": [
+        -0.7,
+        -0.17499999999999982,
+        -0.6999999999999997
+      ],
+      "to": [
+        0.7,
+        0.17499999999999982,
+        0.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.1875,
+            4.1875,
+            7.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            4.1875,
+            4.1875,
+            7.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            4.1875,
+            4.1875,
+            7.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            4.1875,
+            4.1875,
+            7.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            4.1875,
+            4.1875,
+            7.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            4.1875,
+            4.1875,
+            7.75,
+            7.75
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

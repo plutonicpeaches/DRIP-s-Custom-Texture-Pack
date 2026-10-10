@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "drip:embersteel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "drip:embersteel"
+      }
+    ]
+  }
+}

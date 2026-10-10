@@ -1,0 +1,173 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    },
+    "entries": [
+      {
+        "threshold": 5001,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_chat"
+        }
+      },
+      {
+        "threshold": 5002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_gameplay"
+        }
+      },
+      {
+        "threshold": 5003,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_visual"
+        }
+      },
+      {
+        "threshold": 5004,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_social"
+        }
+      },
+      {
+        "threshold": 5005,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_button_bg"
+        }
+      },
+      {
+        "threshold": 5006,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_privacy_lock"
+        }
+      },
+      {
+        "threshold": 5007,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_unknown_tag"
+        }
+      },
+      {
+        "threshold": 5101,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_chat_body_left"
+        }
+      },
+      {
+        "threshold": 5102,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_chat_body_mid"
+        }
+      },
+      {
+        "threshold": 5103,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_chat_body_right"
+        }
+      },
+      {
+        "threshold": 5104,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_gameplay_body_left"
+        }
+      },
+      {
+        "threshold": 5105,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_gameplay_body_mid"
+        }
+      },
+      {
+        "threshold": 5106,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_gameplay_body_right"
+        }
+      },
+      {
+        "threshold": 5107,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_visual_body_left"
+        }
+      },
+      {
+        "threshold": 5108,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_visual_body_mid"
+        }
+      },
+      {
+        "threshold": 5109,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_visual_body_right"
+        }
+      },
+      {
+        "threshold": 5110,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_social_body_left"
+        }
+      },
+      {
+        "threshold": 5111,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_social_body_mid"
+        }
+      },
+      {
+        "threshold": 5112,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_social_body_right"
+        }
+      },
+      {
+        "threshold": 5113,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_scoreboard_body_left"
+        }
+      },
+      {
+        "threshold": 5114,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_scoreboard_body_mid"
+        }
+      },
+      {
+        "threshold": 5115,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_scoreboard_body_right"
+        }
+      },
+      {
+        "threshold": 5116,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/settings_transparent"
+        }
+      }
+    ]
+  }
+}

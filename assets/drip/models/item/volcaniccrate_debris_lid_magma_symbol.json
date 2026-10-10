@@ -1,0 +1,205 @@
+{
+  "credit": "Judah / DRIP - volcaniccrate.bbmodel (debris piece 'lid_magma_symbol')",
+  "textures": {
+    "0": "drip:item/volcaniccrate",
+    "particle": "drip:item/volcaniccrate"
+  },
+  "elements": [
+    {
+      "from": [
+        4.5,
+        21.4,
+        4.5
+      ],
+      "to": [
+        11.5,
+        22.2,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            12.5,
+            1.3125,
+            12.6875
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            12.8125,
+            1.3125,
+            13.0
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.4375,
+            12.5,
+            2.75,
+            12.6875
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.4375,
+            12.8125,
+            2.75,
+            13.0
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            13.125,
+            1.3125,
+            14.4375
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.4375,
+            13.125,
+            1.75,
+            13.4375
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        15,
+        35,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        15,
+        -35,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        10,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        10,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        12,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  }
+}

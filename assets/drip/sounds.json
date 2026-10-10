@@ -1,0 +1,330 @@
+{
+  "skys_eyes.rush": {
+    "sounds": [
+      {
+        "name": "drip:skys_eyes/rush",
+        "stream": false
+      }
+    ]
+  },
+  "skys_eyes.pressure_charge": {
+    "sounds": [
+      {
+        "name": "drip:skys_eyes/pressure_charge",
+        "stream": false
+      }
+    ]
+  },
+  "skys_eyes.gaze_pulse": {
+    "sounds": [
+      {
+        "name": "drip:skys_eyes/gaze_pulse",
+        "stream": false
+      }
+    ]
+  },
+  "skys_eyes.blink": {
+    "sounds": [
+      {
+        "name": "drip:skys_eyes/blink",
+        "stream": false
+      }
+    ]
+  },
+  "skys_eyes.summon": {
+    "sounds": [
+      {
+        "name": "drip:skys_eyes/summon",
+        "stream": false
+      }
+    ]
+  },
+  "skys_eyes.death": {
+    "sounds": [
+      {
+        "name": "drip:skys_eyes/death",
+        "stream": false
+      }
+    ]
+  },
+  "gustling.zip": {
+    "sounds": [
+      {
+        "name": "drip:gustling/zip",
+        "stream": false
+      }
+    ]
+  },
+  "gustling.gust": {
+    "sounds": [
+      {
+        "name": "drip:gustling/gust",
+        "stream": false
+      }
+    ]
+  },
+  "gustling.dissolve": {
+    "sounds": [
+      {
+        "name": "drip:gustling/dissolve",
+        "stream": false
+      }
+    ]
+  },
+  "air_roster.zip": {
+    "sounds": [
+      {
+        "name": "drip:air_roster/zip",
+        "stream": false
+      }
+    ]
+  },
+  "air_roster.gust": {
+    "sounds": [
+      {
+        "name": "drip:air_roster/gust",
+        "stream": false
+      }
+    ]
+  },
+  "air_roster.dissolve": {
+    "sounds": [
+      {
+        "name": "drip:air_roster/dissolve",
+        "stream": false
+      }
+    ]
+  },
+  "air_roster.chime": {
+    "sounds": [
+      {
+        "name": "drip:air_roster/chime",
+        "stream": false
+      }
+    ]
+  },
+  "air_roster.impact": {
+    "sounds": [
+      {
+        "name": "drip:air_roster/impact",
+        "stream": false
+      }
+    ]
+  },
+  "buried_crown.earth_rumble": {
+    "sounds": [
+      {
+        "name": "drip:buried_crown/earth_rumble",
+        "stream": false
+      }
+    ]
+  },
+  "buried_crown.mineral_crack": {
+    "sounds": [
+      {
+        "name": "drip:buried_crown/mineral_crack",
+        "stream": false
+      }
+    ]
+  },
+  "buried_crown.sand_hiss": {
+    "sounds": [
+      {
+        "name": "drip:buried_crown/sand_hiss",
+        "stream": false
+      }
+    ]
+  },
+  "knight.step": {
+    "sounds": [
+      {
+        "name": "drip:knight/step_1",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/step_2",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/step_3",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/step_4",
+        "stream": false
+      }
+    ]
+  },
+  "knight.hurt": {
+    "sounds": [
+      {
+        "name": "drip:knight/hurt_1",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/hurt_2",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/hurt_3",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/hurt_4",
+        "stream": false
+      }
+    ]
+  },
+  "knight.enrage": {
+    "sounds": [
+      {
+        "name": "drip:knight/enrage_1",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/enrage_2",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/enrage_3",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/enrage_4",
+        "stream": false
+      }
+    ]
+  },
+  "knight.charge_start": {
+    "sounds": [
+      {
+        "name": "drip:knight/charge_start_1",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/charge_start_2",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/charge_start_3",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/charge_start_4",
+        "stream": false
+      }
+    ]
+  },
+  "knight.cleave_windup": {
+    "sounds": [
+      {
+        "name": "drip:knight/cleave_windup_1",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/cleave_windup_2",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/cleave_windup_3",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/cleave_windup_4",
+        "stream": false
+      }
+    ]
+  },
+  "knight.seal_stab": {
+    "sounds": [
+      {
+        "name": "drip:knight/seal_stab_1",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/seal_stab_2",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/seal_stab_3",
+        "stream": false
+      },
+      {
+        "name": "drip:knight/seal_stab_4",
+        "stream": false
+      }
+    ]
+  },
+  "elderheart.stone_impact": {
+    "sounds": [
+      {
+        "name": "drip:elderheart/stone_impact",
+        "stream": false
+      }
+    ]
+  },
+  "elderheart.timber_crack": {
+    "sounds": [
+      {
+        "name": "drip:elderheart/timber_crack",
+        "stream": false
+      }
+    ]
+  },
+  "elderheart.seed_rustle": {
+    "sounds": [
+      {
+        "name": "drip:elderheart/seed_rustle",
+        "stream": false
+      }
+    ]
+  },
+  "elderheart.heart_pulse": {
+    "sounds": [
+      {
+        "name": "drip:elderheart/heart_pulse",
+        "stream": false
+      }
+    ]
+  },
+  "void_boss.summon_suction": {
+    "sounds": [
+      {
+        "name": "drip:void_boss/summon_suction",
+        "stream": false
+      }
+    ]
+  },
+  "void_boss.void_blink": {
+    "sounds": [
+      {
+        "name": "drip:void_boss/void_blink",
+        "stream": false
+      }
+    ]
+  },
+  "void_boss.orb_cast": {
+    "sounds": [
+      {
+        "name": "drip:void_boss/orb_cast",
+        "stream": false
+      }
+    ]
+  },
+  "void_boss.beam_drone": {
+    "sounds": [
+      {
+        "name": "drip:void_boss/beam_drone",
+        "stream": false
+      }
+    ]
+  },
+  "void_boss.void_dissolve": {
+    "sounds": [
+      {
+        "name": "drip:void_boss/void_dissolve",
+        "stream": false
+      }
+    ]
+  }
+}

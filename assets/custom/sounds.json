@@ -1,0 +1,10 @@
+{
+  "weapons.candycane_crusher": {
+    "sounds": [
+      {
+        "name": "custom:weapons/candycane_crusher",
+        "stream": false
+      }
+    ]
+  }
+}

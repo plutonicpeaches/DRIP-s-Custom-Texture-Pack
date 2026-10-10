@@ -1,0 +1,210 @@
+{
+  "credit": "Judah / DRIP - crimsoncrate.bbmodel (debris piece 'seam_glow_ring')",
+  "textures": {
+    "0": "drip:item/crimsoncrate",
+    "particle": "drip:item/crimsoncrate"
+  },
+  "elements": [
+    {
+      "from": [
+        -4.3,
+        14,
+        -1.3
+      ],
+      "to": [
+        20.3,
+        14.9,
+        17.3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            11.0,
+            2.0,
+            12.5625
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2.0,
+            11.0,
+            4.0,
+            12.5625
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            12.5625,
+            1.5625,
+            12.6875
+          ],
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.5625,
+            12.5625,
+            3.5625,
+            12.6875
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            3.5625,
+            12.5625,
+            5.125,
+            12.6875
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            5.125,
+            12.5625,
+            7.125,
+            12.6875
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        25,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        25,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -135,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        12,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "credit": "Judah / DRIP - inkwell_squid.bbmodel (pet rig bone)",
+  "textures": {
+    "0": "drip:item/pet_inkwell_squid",
+    "particle": "drip:item/pet_inkwell_squid"
+  },
+  "elements": [
+    {
+      "from": [
+        0.19999999999999973,
+        -3.0,
+        -0.3
+      ],
+      "to": [
+        0.7999999999999996,
+        0.0,
+        0.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.1875,
+            4.1875,
+            3.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.1875,
+            4.1875,
+            3.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0.1875,
+            4.1875,
+            3.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.1875,
+            4.1875,
+            3.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.1875,
+            4.1875,
+            3.75,
+            7.75
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.1875,
+            4.1875,
+            3.75,
+            7.75
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}
