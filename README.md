@@ -1,1 +1,1 @@
-drip texture pack
+DRIP's Official Texture Pack
